@@ -38,17 +38,22 @@ yabai -m config mouse_action2 resize
 # sets mouse follows focus mode (default off)
 # yabai -m config mouse_follows_focus on
 
-# WINDOW MODIFICATIONS
+# WINDOW MODIFICATIONS requires SIP disabled
 # floating windows are always on top (default: off)
 # yabai -m config window_topmost on
 # modify window shadows (default on, options - on , off, float (float only puts shadows on floating windows))
-yabai -m config window_shadow float
+# yabai -m config window_shadow float
 # window opacity (default off)
 # sets the opacity of windows 1.0 is opaque, 0.0 is transparent
 # yabai -m config window_opacity on
 # yabai -m config active_window_opacity 1.0
 # yabai -m config normal_window_opacity 0.9
 
+# add configuration to adjust for the topbar (either sketchybar or simplebar)
+yabai -m config external_bar main:25:0
+
+# disable specific apps from begin managed with yabai
+# yabai -m rule --add app="^System Settings$" manage=off
 
 
 

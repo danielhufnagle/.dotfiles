@@ -1,0 +1,20 @@
+# configure shortcuts for yabai
+
+# changing focus within a space
+#alt - j : yabai -m window --focus south
+#alt - k : yabai -m window --focus north
+#alt - h : yabai -m window --focus west
+#alt - l : yabai -m window --focus east
+
+# changing focus between displays
+#alt - s: yabai -m display --focus west
+#alt - g: yabai -m display --focus east
+
+# shortcuts for modufying the layout
+ctrl + alt - up : yabai -m space --mirror x-axis
+ctrl + alt - down : yabai -m space --mirror y-axis
+ctrl + alt - right : yabai -m space --rotate 270
+ctrl + alt - left : yabai -m space --rotate 90
+ctrl + alt - a : yabai -m window --display west
+ctrl + alt - d : yabai -m window --display east
+ctrl + alt - t : yabai -m window --toggle float
