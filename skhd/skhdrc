@@ -19,14 +19,14 @@
 #ctrl + alt - d : yabai -m window --display east
 #ctrl + alt - t : yabai -m window --toggle float
 
-hyper - up : yabai -m space --mirror x-axis
-hyper - down : yabai -m space --mirror y-axis
-hyper - right : yabai -m space --rotate 270
-hyper - left : yabai -m space --rotate 90
-hyper - a : yabai -m window --display west
-hyper - d : yabai -m window --display east
-hyper - t : yabai -m window --toggle float
-hyper - i : yabai -m window --swap north
-hyper - k : yabai -m window --swap south
-hyper - j : yabai -m window --swap west
-hyper - l : yabai -m window --swap east
+ctrl + alt - up : yabai -m space --mirror x-axis
+ctrl + alt - down : yabai -m space --mirror y-axis
+ctrl + alt - right : yabai -m space --rotate 270
+ctrl + alt - left : yabai -m space --rotate 90
+ctrl + alt - a : yabai -m window --display west
+ctrl + alt - d : yabai -m window --display east
+ctrl + alt - t : yabai -m window --toggle float
+ctrl + alt - i : yabai -m window --swap north
+ctrl + alt - k : yabai -m window --swap south
+ctrl + alt - j : yabai -m window --swap west
+ctrl + alt - l : yabai -m window --swap east
