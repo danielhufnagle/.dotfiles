@@ -28,7 +28,7 @@ yabai -m config window_gap 12
 
 # MOUSE SUPPORT
 # set the modifier key for the mouse options are fn, alt, ctrl (I haven't tried control, but I know alt and fn work)
-yabai -m config mouse_modifier alt
+yabai -m config mouse_modifier fn
 # set modifier + left-click drag to move window
 yabai -m config mouse_action1 move
 # set modifier + right-click drag to resize window
@@ -50,11 +50,18 @@ yabai -m config mouse_action2 resize
 # yabai -m config normal_window_opacity 0.9
 
 # add configuration to adjust for the topbar (either sketchybar or simplebar)
-yabai -m config external_bar main:25:0
+#yabai -m config external_bar main:25:0
 
 # disable specific apps from begin managed with yabai
-# yabai -m rule --add app="^System Settings$" manage=off
-
-
-
-
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Karabiner-Elements$" manage=off
+yabai -m rule --add app="^Capture One$" manage=off
+yabai -m rule --add app="^Playcover$" manage=off
+yabai -m rule --add app="^Honkai: Star Rail$" manage=off
+yabai -m rule --add app="^Genshin Impact$" manage=off
+yabai -m rule --add app="^Yet Another Anime Game Launcher$" manage=off
+yabai -m rule --add app="^Affinity Photo 2$" manage=off
+yabai -m rule --add app="^DaVinci Resolve$" manage=off
+yabai -m rule --add app="^KakaoTalk$" manage=off
+yabai -m rule --add app="^Steam$" manage=off
+yabai -m rule --add app="^zoom.us$" manage=off
