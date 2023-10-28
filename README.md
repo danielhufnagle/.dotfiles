@@ -15,7 +15,7 @@ Your mileage may vary.
 
 [Neofetch](https://github.com/dylanaraps/neofetch) - this is not strictly necessary, but I like it
 
-[JetBrains Mono](https://www.jetbrains.com/lp/mono/) - this is the font that I use for basically everything, installing this font (or any other nerd font) is needed for the zsh theme to work
+[Roboto Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/RobotoMono.zip) - this is the font that I use for basically everything, installing this font (or any other nerd font) is needed for the zsh theme (as well as a lot of other nice utilities (such as neovim plugins)) to work
 
 #### Other good information to know beforehand
 The theme that I use for just about everything is called ["Nord"](https://www.nordtheme.com/). I like the clean dark blue and subdued colors offered. Nord is a theme that is found basically everywhere from programmer tools like VSCode, Neovim (with plugins like NVChad), RStudio, to more common applications like Spotify (tweaked with Spicetify), Discord (tweaked with BetterDiscord), Obsidian, and most themeable browsers (Firefox, Chrome, etc.)
@@ -124,10 +124,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 I would advise against closing your terminal as we will need it later
 
-#### Install JetBrains Mono
-Go to the link to the download for the font [https://www.jetbrains.com/lp/mono/](https://www.jetbrains.com/lp/mono/) and download the font. Go to the ```Downloads``` folder in Finder and double click the zip file to extract it. Go into the newly created ```JetBrains Mono``` folder and then into the ```fonts``` folder and then the ```ttf``` folder. 
+#### Install Roboto Mono
+Go to the link to the download for the font [https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/RobotoMono.zip](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/RobotoMono.zip) and download the font. Go to the ```Downloads``` folder in Finder and double click the zip file to extract it. Go into the newly created ```RobotoMono``` folder. 
 
-From here select all the .ttf files and right click and select open. This will install JetBrains Mono. 
+From here select all the .ttf files and right click and select open. This will install Roboto Mono. 
 
 #### Installing the configuration
 Then open Finder and then press command shift H to go to your home folder. I would recommend pinning this folder somewhere to your favorites because of how important this folder is.
