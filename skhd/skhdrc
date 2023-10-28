@@ -10,7 +10,7 @@
 #alt - s: yabai -m display --focus west
 #alt - g: yabai -m display --focus east
 
-# shortcuts for modufying the layout
+# shortcuts for modifying the layout
 #ctrl + alt - up : yabai -m space --mirror x-axis
 #ctrl + alt - down : yabai -m space --mirror y-axis
 #ctrl + alt - right : yabai -m space --rotate 270
@@ -30,3 +30,8 @@ ctrl + alt - i : yabai -m window --swap north
 ctrl + alt - k : yabai -m window --swap south
 ctrl + alt - j : yabai -m window --swap west
 ctrl + alt - l : yabai -m window --swap east
+ctrl + alt - p : yabai -m window --resize right:25:0
+ctrl + alt + shift - o : yabai -m window --resize right:-25:0
+ctrl + alt - o : yabai -m window --resize left:-25:0
+ctrl + alt + shift - p : yabai -m window --resize left:25:0
+
