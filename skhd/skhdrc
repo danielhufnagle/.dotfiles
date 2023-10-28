@@ -19,19 +19,33 @@
 #ctrl + alt - d : yabai -m window --display east
 #ctrl + alt - t : yabai -m window --toggle float
 
+# modify the layout
 ctrl + alt - up : yabai -m space --mirror x-axis
 ctrl + alt - down : yabai -m space --mirror y-axis
 ctrl + alt - right : yabai -m space --rotate 270
 ctrl + alt - left : yabai -m space --rotate 90
+# move windows between displays
 ctrl + alt - a : yabai -m window --display west
 ctrl + alt - d : yabai -m window --display east
+# float a window or retile it
 ctrl + alt - t : yabai -m window --toggle float
+# swap windows around
 ctrl + alt - i : yabai -m window --swap north
 ctrl + alt - k : yabai -m window --swap south
 ctrl + alt - j : yabai -m window --swap west
 ctrl + alt - l : yabai -m window --swap east
+# resize windows
 ctrl + alt - p : yabai -m window --resize right:25:0
 ctrl + alt + shift - o : yabai -m window --resize right:-25:0
 ctrl + alt - o : yabai -m window --resize left:-25:0
 ctrl + alt + shift - p : yabai -m window --resize left:25:0
-
+ctrl + alt - 0x1E : yabai -m window --resize top:0:-25
+ctrl + alt + shift - 0x21 : yabai -m window --resize top:0:25
+ctrl + alt - 0x21 : yabai -m window --resize bottom:0:25
+ctrl + alt + shift - 0x1E : yabai -m window --resize bottom:0:-25
+# 0x1E is "]" and 0x21 is "["
+# move windows
+ctrl + alt + shift - up : yabai -m window --move rel:0:-25
+ctrl + alt + shift - down : yabai -m window --move rel:0:25
+ctrl + alt + shift - left : yabai -m window --move rel:-25:0
+ctrl + alt + shift - right : yabai -m window --move rel:25:0
