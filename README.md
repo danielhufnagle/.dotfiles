@@ -11,7 +11,7 @@ Your mileage may vary.
 
 [skhd](https://github.com/koekeishiya/skhd) - this is the keyboard shortcut daemon we will be using
 
-[Oh My Zsh](https://ohmyz.sh/#install) - this is how we will theme our terminal and make it look pretty
+[Oh My Zsh](https://ohmyz.sh/#install) - this is how we will theme our terminal and make it look pretty (The "fuhd" theme used in this configuration is a modified version of the agnoster oh-my-zsh theme)
 
 [Neofetch](https://github.com/dylanaraps/neofetch) - this is not strictly necessary, but I like it
 
