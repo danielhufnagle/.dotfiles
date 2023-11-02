@@ -34,7 +34,7 @@ yabai -m config mouse_action1 move
 # set modifier + right-click drag to resize window
 yabai -m config mouse_action2 resize
 # sets focus follows mouse (default off: options - off, autoraise, autofocus)
-#yabai -m config focus_follows_mouse autoraise
+yabai -m config focus_follows_mouse autoraise
 # sets mouse follows focus mode (default off)
 # yabai -m config mouse_follows_focus on
 
