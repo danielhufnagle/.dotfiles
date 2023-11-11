@@ -56,3 +56,7 @@ ctrl + alt + shift - j : yabai -m window --space prev
 
 # toggle focus follows mouse'
 ctrl + alt - f : [[ $(yabai -m config focus_follows_mouse) = "disabled" ]] && yabai -m config focus_follows_mouse autofocus mouse_follows_focus on || yabai -m config focus_follows_mouse off mouse_follows_focus off
+
+# fullscreen apps
+ctrl + alt - m : yabai -m config layout stack
+ctrl + alt + shift - m : yabai -m config layout bsp

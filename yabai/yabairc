@@ -53,22 +53,24 @@ yabai -m config mouse_action2 resize
 #yabai -m config external_bar main:25:0
 
 # disable specific apps from begin managed with yabai
+# the apps I commented out are ones I've decided I want to have stack, which I do with
+# keyboard shortcuts.
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Karabiner-Elements$" manage=off
-yabai -m rule --add app="^Capture One$" manage=off
+#yabai -m rule --add app="^Capture One$" manage=off
 yabai -m rule --add app="^PlayCover$" manage=off
 yabai -m rule --add app="^Honkai: Star Rail$" manage=off
 yabai -m rule --add app="^Genshin Impact$" manage=off
 yabai -m rule --add app="^Yet Another Anime Game Launcher$" manage=off
-yabai -m rule --add app="^Affinity Photo 2$" manage=off
-yabai -m rule --add app="^DaVinci Resolve$" manage=off
+#yabai -m rule --add app="^Affinity Photo 2$" manage=off
+#yabai -m rule --add app="^DaVinci Resolve$" manage=off
 yabai -m rule --add app="^KakaoTalk$" manage=off
 yabai -m rule --add app="^Steam$" manage=off
 yabai -m rule --add app="^Steam Helper$" manage=off
 yabai -m rule --add app="^zoom.us$" manage=off
 yabai -m rule --add app="^Lumafly$" manage=off
 yabai -m rule --add app="^CrossOver$" manage=off
-yabai -m rule --add app="^Adobe Photoshop 2023$" manage=off
+#yabai -m rule --add app="^Adobe Photoshop 2023$" manage=off
 
 # to add an app run 
 # yabai -m query --windows to view all windows with their real names
